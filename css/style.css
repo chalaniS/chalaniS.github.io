@@ -258,6 +258,7 @@ header .navbar ul li a:hover {
     padding: .5rem 2.5rem;
 }
 
+
 .services .box-container .box h3 {
     font-size: 2rem;
     color: #fff;
@@ -285,6 +286,20 @@ header .navbar ul li a:hover {
     background: var(--yellow);
 }
 
+.services .box-container .box i:hover {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background: var(--yellow);
+}
+
 .portfolio .box-container {
     display: flex;
     align-items: center;
@@ -300,7 +315,24 @@ header .navbar ul li a:hover {
     overflow: hidden;
     cursor: pointer;
     margin: 1rem;
+    position: relative;
 }
+
+.portfolio .box-container .box div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+
+}
+
 
 .portfolio .box-container .box img {
     height: 100%;
@@ -310,7 +342,25 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
+    filter: blur(0.9rem);
 }
+
+.portfolio .box-container .box:hover {
+    cursor: pointer;
+}
+
+.portfolio .box-container .box:hover div {
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    visibility: visible;
+    opacity: 0.9;
+    background: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
 
 .contact .row {
     display: flex;
@@ -385,6 +435,12 @@ header .navbar ul li a:hover {
     font-size: 4rem;
     color: var(--yellow);
     display: none;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 
