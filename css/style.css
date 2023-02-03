@@ -426,7 +426,12 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
     padding-right: 1rem;
     color: var(--yellow);
+}
 
+.contact .row .content .info h3 a {
+    font-size: 3.8rem;
+    padding-right: 2rem;
+    color: var(--yellow);
 }
 
 .top {
