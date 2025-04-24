@@ -246,7 +246,7 @@ header .navbar ul li a:hover {
 
 .services .box-container .box {
     width: 40rem;
-    margin: 6rem 3rem;
+    margin: 4rem 3rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
@@ -358,10 +358,45 @@ header .navbar ul li a:hover {
     visibility: visible;
     opacity: 0.9;
     background: none;
-    color: black;
+    color: black; 
     font-size: 2rem;
     font-weight: 900;
 }
+
+
+.experience {
+    padding: 2rem 4rem;
+    background: #111;
+  }
+  
+  .experience .info {
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+  }
+  
+  .experience .info h3 {
+    font-size: 1.75rem;
+    color: var(--yellow);
+    padding: 0.4rem 0;
+    font-weight: normal;
+  }
+  
+  .experience .info h3 span {
+    color: #eee;
+    padding: 0 0.5rem;
+  }
+  
+  .experience .info ul {
+    padding-left: 4rem;
+    list-style-type: disc;
+  }
+  
+  .experience .info ul li {
+    font-size: 1.6rem;
+    color: #eee;
+    padding: 0.4rem 0;
+  }
+  
 
 
 .contact .row {
