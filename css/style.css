@@ -193,6 +193,38 @@ header .navbar ul li a:hover {
     margin-bottom: 0.5rem;
 }
 
+.certifications-title {
+    font-size: 2.5rem;
+    color: var(--yellow);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.certifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.certification-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-left: 4px solid var(--yellow);
+    color: #eee;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.certification-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+
 .about .row {
     display: flex;
     align-items: center;
