@@ -193,35 +193,37 @@ header .navbar ul li a:hover {
     margin-bottom: 0.5rem;
 }
 
-.certifications-title {
-    font-size: 2.5rem;
-    color: var(--yellow);
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .certifications {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    padding: 1rem 0;
+    padding: 2rem 4rem;
+    background: #111;
 }
 
-.certification-item {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 1rem;
-    border-left: 4px solid var(--yellow);
+.certifications .info {
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.certifications .info h3 {
+    font-size: 1.75rem;
+    color: var(--yellow);
+    padding: 0.4rem 0;
+    font-weight: normal;
+}
+
+.certifications .info h3 span {
     color: #eee;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+    padding: 0 0.5rem;
 }
 
-.certification-item:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: translateY(-5px);
+.certifications .info ul {
+    padding-left: 4rem;
+    list-style-type: disc;
+}
+
+.certifications .info ul li {
+    font-size: 1.6rem;
+    color: #eee;
+    padding: 0.4rem 0;
 }
 
 
