@@ -163,6 +163,7 @@ header .navbar ul li a:hover {
 .home h3 {
     font-size: 2rem;
     color: #fff;
+    margin-top: 2rem;
 }
 
 .home h1 {
@@ -171,7 +172,7 @@ header .navbar ul li a:hover {
 }
 
 .home h1 span {
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
 .home p {
@@ -180,7 +181,17 @@ header .navbar ul li a:hover {
     padding: 1rem 0;
 }
 
+.home ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    padding: 1rem 0;
+}
 
+.home ul li {
+    font-size: 1.5rem;
+    color: #eee;
+    margin-bottom: 0.5rem;
+}
 
 .about .row {
     display: flex;
