@@ -7,4 +7,5 @@ Visit my site and tell me your comments….
 https://chalanis.github.io/
 
 
-![page](https://user-images.githubusercontent.com/99180967/216756737-1a6d0df0-0461-4591-89a4-fcde27c86e1b.jpg)
+
+![Screenshot 2025-05-24 173438](https://github.com/user-attachments/assets/482ba2b4-8588-4733-8bf2-5b4415c110aa)
